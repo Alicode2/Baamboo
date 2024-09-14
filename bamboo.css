@@ -647,4 +647,213 @@ li a {
 }
 
 @media (max-width: 480px) {
+  .nav img {
+    width: 50px;
+    margin-top: 0;
+  }
+  .nav ul {
+    display: none;
+  }
+
+  #headers {
+    height: 45vh;
+    width: 100vw;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 0.1rem;
+  }
+  .mobile-div {
+    margin-left: -17rem;
+  }
+  .hero .write1 {
+    margin-top: -1rem;
+  }
+  .write1 img {
+    width: 3rem;
+  }
+  .hero h1 {
+    font-size: 1rem;
+    text-wrap: wrap;
+    width: 230px;
+  }
+
+  .hero p {
+    font-size: 12px;
+    width: 230px;
+  }
+  .hero .ifram {
+    display: none;
+  }
+
+  .carouser {
+    display: flex;
+    margin-left: -12rem;
+    width: 50vw;
+  }
+
+  .rest {
+    display: flex;
+    flex-direction: column;
+  }
+  .write2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .rest .write2 span {
+    font-size: 32px;
+    width: 12rem;
+  }
+  .write2 .p {
+    width: 200px;
+  }
+
+  .box .bottom {
+    font-size: 0.8rem;
+    width: 200px;
+  }
+
+  .money {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .money .write2 h2 {
+    font-size: 32px;
+    width: 12rem;
+  }
+  .invest,
+  .learn {
+    display: none;
+  }
+
+  .products {
+    height: 200vh;
+    width: 100vw;
+  }
+
+  .products .ph2 {
+    font-size: 2rem;
+  }
+
+  .products .product-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .products .product {
+    width: 300px;
+  }
+
+  .product .img4 {
+    padding: 2rem 0;
+  }
+
+  .write5 h2 {
+    margin-bottom: 5px;
+  }
+  .stock .lmore,
+  .exchange .lmore,
+  .fixed .lmore {
+    margin-top: 20px;
+  }
+  .inst {
+    display: none;
+  }
+
+  .help {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    font-size: 1rem;
+    align-items: center;
+    height: 180vh;
+  }
+
+  .tbell .bell {
+    margin-top: 0;
+    text-align: center;
+  }
+  .bell img {
+    width: 200px;
+  }
+
+  .help h2 {
+    font-size: 2rem;
+    width: 300px;
+    line-height: 1.2;
+  }
+  .help .write6 .armed {
+    font-size: 15px;
+  }
+  .writeTrigger p {
+    font-size: 15px;
+    width: 300px;
+  }
+  .tbell .writeTrigger h2 {
+    font-size: 2rem;
+    width: 300px;
+    text-align: center;
+  }
+  .tbell {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    font-size: 12px;
+  }
+
+  .con .mailbox img {
+    margin-left: 350px;
+    width: 100px;
+  }
+  .write7 h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-left: -5rem;
+  }
+  .write7 p {
+    margin-left: -1rem;
+    max-width: 300px;
+    font-size: 1.2rem;
+    margin-top: 12px;
+  }
+  .write7 .l {
+    font-size: 1rem;
+    margin-left: -4rem;
+    margin-top: 5rem;
+  }
+  .download {
+    text-align: center;
+  }
+  .download .deposit {
+    display: none;
+  }
+  .download .write8 h2 {
+    width: 400px;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .write8 img {
+    max-width: 100px;
+  }
+
+  .foot footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10rem;
+  }
+  .img-address .footlog {
+    display: none;
+  }
+  .address {
+    display: none;
+  }
+  .bamboo {
+    display: none;
+  }
 }
